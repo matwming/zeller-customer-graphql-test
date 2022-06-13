@@ -62,3 +62,4 @@ it will run all unit tests in this project and a report is given in the end. Thi
 2. this app has a global error handler (errorBoundary) with unit test. Whenever there is an error, the screen will show the prepared error screen. The error screen is located in src/components/errorScreen.tsx.
 3. this app has a service folder where all services are grouped. It currently has only one service called valueDisplayService. This service is injected in User component as a dependency.
 4. apollo client related config functions are located in src/config/apolloConfig.js
+5. this project has two branches: master and feature/apollo. feature/apollo has the latest code. Please use feature/apollo branch.
